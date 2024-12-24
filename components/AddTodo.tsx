@@ -19,12 +19,11 @@ const AddTodo = () => {
 
     return (
         <div>
-            <form action={clientAction} className="flex gap-1">
+            <form action={clientAction} className="flex gap-1 min-w-[250px] ">
                 <Input
                     type="text"
                     name="text"
                     placeholder="Add Todo"
-                    className="w-full max-w-3xl"
                 />
 
                 <Button variant={"default"}>Add</Button>

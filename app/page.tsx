@@ -1,9 +1,10 @@
 import AddTodo from "@/components/AddTodo";
 import Todo from "@/components/Todo";
 import { getTodos } from "./actions/getTodos";
+import { TodoType } from "@/lib/types";
 
 export default async function Home() {
-  const todos = await getTodos();
+  const todos: TodoType[] = await getTodos();
 
   return (
     <div className="flex min-h-screen flex-col items-center mt-11">
@@ -13,7 +14,7 @@ export default async function Home() {
       <div className="">
         {todos.length > 0 ? (
           <>
-            {todos.map((todo) => (
+            {todos.map((todo: TodoType) => (
               <Todo key={todo.id} todo={todo} />
             ))}
           </>
