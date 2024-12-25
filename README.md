@@ -13,13 +13,13 @@ This is a [Next.js](https://nextjs.org/) todo app with [Google](https://next-aut
 Clone the repository:
 
 ```bash
-git clone https://github.com/shadcn/todo-nextjs.git
+git clone https://github.com/Ayush8085/todo-next.git
 ```
 
 Install dependencies:
 
 ```bash
-cd todo-nextjs
+cd todo-next
 npm install
 ```
 
