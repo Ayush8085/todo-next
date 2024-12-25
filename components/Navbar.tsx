@@ -8,7 +8,7 @@ const Navbar = async () => {
     return (
         <header className="w-full border-2 p-2 flex justify-between">
             <div className="">
-                <h1 className="text-2xl font-24-medium">Todo App</h1>
+                <h1 className="text-xl font-semibold">TodoApp</h1>
             </div>
 
             <div className="flex gap-2">
